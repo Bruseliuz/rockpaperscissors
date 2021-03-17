@@ -36,12 +36,12 @@ Below is an example of one game session using curl from a local terminal on MacO
 
 3. $ curl --header "Content-Type: application/json" --request POST --data 
    '{"name":"Nils", "move": "Rock"}' http://localhost:8080/api/games/INSERT-UUID-HERE/move
-   * Nils choses Rock as their move.
+   * Nils chooses Rock as his move.
     
 
 4. $ curl --header "Content-Type: application/json" --request POST --data 
    '{"name":"Pia", "move": "Paper"}' http://localhost:8080/api/games/INSERT-UUID-HERE/move
-   * Pia choses Paper as their move.
+   * Pia chooses Paper as her move.
    
 
 5. $ curl --header "Content-Type: application/json" --request GET 
